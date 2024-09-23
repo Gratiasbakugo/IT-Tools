@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce-ShoppingCart | Korsat X Parmaga</title>
+
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .header {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Ajustez la hauteur selon vos besoins */
+    background-image: url('macbook-new.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.header h1 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optionnel : ajouter un fond semi-transparent pour le texte */
+    padding: 10px;
+}
+.header img {
+    width:50px ;
+    height: 50px;
+}
+    </style>
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <div class="nav container">
+            <a href="#" class="logo"><span>E</span>Commerce</a>
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Ihr Warenkorb</h2>
+
+                <!-- CONTENT  -->
+                
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Jetzt kaufen</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+       
+    <div  class="header">
+        <h1>Zahle 1/3 des betrags, der rest wird nach der lieferung ausgezahlt</h1> 
+    </div>
+
+    <div class="banner"><img src="banner.jpg" alt=""></div>
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Produkt kaufen</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="assets/img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">PC HP</h2>
+                <span class="product-price">€280</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="assets/img/product2.png" alt="" class="product-img">
+                <h2 class="product-title">lENOVO</h2>
+                <span class="product-price">€155</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="assets/img/product3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Iphone 15 pro</h2>
+                <span class="product-price">€800</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="assets/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">Casque sonic</h2>
+                <span class="product-price">€80</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="assets/img/product5.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ps5-controller</h2>
+                <span class="product-price">$95</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="assets/img/product6.jpg" alt="" class="product-img">
+                <h2 class="product-title">Galaxy Z Fold</h2>
+                <span class="product-price">$1400</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="assets/img/product7.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nikon Camera</h2>
+                <span class="product-price">$1700</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="assets/img/product8.jpg" alt="" class="product-img">
+                <h2 class="product-title">Apple Watch</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="assets/img/product9.jpg" alt="" class="product-img">
+                <h2 class="product-title">Touch screen</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="assets/img/product10.jpg" alt="" class="product-img">
+                <h2 class="product-title">Smart wash</h2>
+                <span class="product-price">$109.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="assets/img/product11.jpg" alt="" class="product-img">
+                <h2 class="product-title">Google pixel</h2>
+                <span class="product-price">€280</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="assets/img/product12.jpg" alt="" class="product-img">
+                <h2 class="product-title">JBL</h2>
+                <span class="product-price">€105</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="assets/img/product17.png" alt="" class="product-img">
+                <h2 class="product-title">Macbook pro</h2>
+                <span class="product-price">€2199.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="assets/img/product13.jpg" alt="" class="product-img">
+                <h2 class="product-title">Airpods</h2>
+                <span class="product-price">€95.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="assets/img/product14.jpg" alt="" class="product-img">
+                <h2 class="product-title">Iphone 16</h2>
+                <span class="product-price">€1000.9</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="assets/img/product15.png" alt="" class="product-img">
+                <h2 class="product-title">Macbook</h2>
+                <span class="product-price">€1899.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div> 
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="section contact-info">
+                <h2>Kontaktieren sie uns</h2>
+                <p>E-mail: contact@Ecommerce.com</p>
+                <p>Telefon: +49 456 14-5241</p>
+                <p>Adresse: 11055 Berlin Allemagne</p>
+            </div>
+
+            <div class="section delivery-methods">
+                <h2>Versandart</h2>
+                <img src="OIP (5).jpeg" alt="Méthode de livraison 1">
+                <img src="OIP (6).jpeg" alt="Méthode de livraison 2">
+                <img src="OIP (7).jpeg" alt="Méthode de livraison 3">
+                <!-- Ajoutez autant d'images de méthodes de livraison que nécessaire -->
+            </div>
+
+            <div class="section social-media">
+                <h2>folgen sie uns</h2>
+                <a href="https://facebook.com/votresite" target="_blank">Facebook</a>
+                <a href="https://twitter.com/votresite" target="_blank">Twitter</a>
+                <a href="https://instagram.com/votresite" target="_blank">Instagram</a>
+                <!-- Ajoutez d'autres liens de réseaux sociaux selon vos besoins -->
+            </div>
+
+            <div class="section legal-info">
+                <h2>rechtliche informationen</h2>
+                <p>&copy; <a href="#" class="logo"><span>E</span>Commerce</a>. Alle rechte vorbehalten.</p>
+                <p><a href="#" style="color: white; text-decoration: underline;">Datenschutzrichtlinie</a> | <a href="#" style="color: white; text-decoration: underline;">Nutzungsbedingungen</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- link js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
