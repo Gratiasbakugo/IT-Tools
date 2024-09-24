@@ -116,7 +116,7 @@ function handle_buyOrder() {
   }
   const cartContent = cart.querySelector(".cart-content");
   cartContent.innerHTML = "";
-  window.location.href = "s.html"
+  window.location.href = "paiement.html"
   itemsAdded = [];
 
   update();
